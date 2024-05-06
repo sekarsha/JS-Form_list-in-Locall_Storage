@@ -1,0 +1,102 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100,400,500;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background-color: #D7DBDD;
+}
+
+
+
+.tab{
+
+    font-size: 10px;
+}
+
+td{
+    padding: 5px;
+}
+
+tr:hover{
+    background-color: #ccc;
+}
+
+
+.ebtn{
+    padding: 5px;
+    border: none;
+    font-size: 10px;
+}
+.edelete{
+    padding: 5px;
+    border: none;
+    font-size: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    #forminput{
+       
+        width: 50%;
+     }
+
+     .tab{
+
+        font-size: 25px;
+    }
+    
+    .edelete{
+        font-size: 25px;
+    }
+
+    .ebtn{
+       
+        font-size: 25px;
+    }
+
+
+
+   }
+
+span{
+    font-size: 30px;
+}
+
+#eformmain{
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   display: none;
+
+}
+
+#eform{
+    
+    margin: 3% auto;
+    width: auto;
+}
+
+.e_form{
+    background-color: #ccc;
+    border: 2px solid green;
+    width: 700px;
+}
+
+#sha:hover{
+    color: red;
+    cursor: pointer;
+}
